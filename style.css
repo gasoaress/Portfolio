@@ -84,3 +84,34 @@ body{
     color: rgb(0,0,0);
 }
 /* --------------------------------------------------------------------------- */
+
+/* ABOUT */
+
+.about{
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about div{
+    max-width: 50%;
+    padding-right: 40px;
+}
+
+.about  img{
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.about div h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+/* --------------------------------------------------------------------------- */
