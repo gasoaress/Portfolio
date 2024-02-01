@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Inicio HEADER */
+.nav{
+    background-color: rgb(37, 36, 36);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 28px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: ghostwhite;
+    padding: 20px;
+}
+
+.nav-list a:hover{
+    color: aqua;
+}
+/*------------------------------*/
+
+/* MAIN */
+
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10% ;
+    height: calc(100vh - 80px);
+    background-color: rgb(0, 0, 0);
+    background-image: url("assets/images/programador.png");
+}
+
+.main h1 {
+    color: aliceblue;
+    font-size: 54px;
+
+}
+
+.main p {
+    color: rgb(0, 94, 255);
+    font-size: 24px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    font-style: italic;
+}
+
+.button{
+    cursor: pointer;
+    padding: 10px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+
+.main a {
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+/* --------------------------------------------------------------------------- */
