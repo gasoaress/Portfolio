@@ -9,6 +9,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Inicio HEADER */
 .nav{
     background-color: rgb(37, 36, 36);
@@ -46,7 +50,7 @@ body{
     display: flex;
     align-items: center;
     padding-left: 10% ;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 10px);
     background-color: rgb(0, 0, 0);
     background-image: url("assets/images/programador.png");
 }
@@ -166,10 +170,82 @@ body{
 .action{
     background-color: rgb(18, 18, 18);
     border:0;
-    padding: 12px, 28px;
+    padding: 12px 28px;
     border-radius: 4px;
     font-size: 24px;
     color: white;
     margin-top: 20px;
     cursor: pointer;
+}
+/* ---------------------------------------------- */
+
+/* Footer */
+footer{
+    width: 100%;
+    background-color: #181818;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer p{
+    margin-left: 12px;
+}
+/* -------------------------------------------------------- */
+
+/* Trabalhando com Responsividade */
+
+@media(max-width:1050px){
+    /* MAIN */
+    .main h1{
+        font-size: 45px;
+    }
+    .main p{
+        font-size: 18px;
+    }
+    .main {
+        background-size: cover;
+    }
+    /*  */
+
+    /* Sobre */
+    .about{
+        flex-direction: column;
+        padding-top: 80px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    .about div{
+        max-width: 80%;
+    }
+    .about div h2{
+        font-size: 45px;
+    }
+    .about img{
+        width: 80%;
+        margin-top: 30px;
+    }
+    /*  */
+    /*Sobre*/
+    .projects img {
+        width: 29%;
+    }
+    /*  */
+    /* Footer */
+    .footer {
+        flex-direction: column;
+    }
+    .footer h3{
+        font-size: 25px;
+        margin-bottom: 8px;
+    }
+    .footer p{
+        margin: 0;
+    }
 }
